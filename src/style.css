@@ -84,3 +84,10 @@ border-radius: 8px;
   }
 }
   
+/* styling for mobile */
+@media screen and (max-width:786px){
+  .light-box{
+    background-color: green;
+    color: white;
+  }
+}
