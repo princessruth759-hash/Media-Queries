@@ -75,3 +75,12 @@ padding: 20px;
 text-align: center;
 border-radius: 8px;
 }
+
+/* styling for tablets  */
+@media screen and (max-width: 991px){
+  .light-box{
+    background-color: yellow;
+    color: #2c3e50;
+  }
+}
+  
