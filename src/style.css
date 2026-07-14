@@ -109,8 +109,14 @@ border-radius: 8px;
   
 /* styling for mobile */
 @media screen and (max-width:786px){
+  /* styling for challenge 1 */
   .light-box{
     background-color: green;
     color: white;
+  }
+
+  /* styling for challenge 2 mobile */
+  .layout-wrapper{
+    flex-direction: column;
   }
 }
