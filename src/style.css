@@ -115,8 +115,33 @@ border-radius: 8px;
     color: white;
   }
 
-  /* styling for challenge 2 mobile */
+  /* styling for challenge 2 for mobile */
   .layout-wrapper{
     flex-direction: column;
   }
+}
+
+
+.hamburger-icon{
+  display: block;
+}
+
+.nav-links{
+  display: none;
+  background-color: #34495e;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  padding: 10px 0px;
+  width: 150px;
+}
+
+.nav-links li{
+  margin: 10px 0px;
+}
+
+
+.menu-container:hover .nav-links{
+  display: flex;
+  flex-direction: column;
 }
